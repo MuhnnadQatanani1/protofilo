@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6746b5716b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!----------home------------->
+    <div id="header">
+    <div class="container">
+        <nav><img src="PHOTO/logo.png" class="logo">
+        <ul id="menu">
+            <li><a href="#header">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#my-works">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+            <i class="fas fa-times"onclick="closeMenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openMenu()"></i>
+    </nav>
+    <div class="header-text" >
+        <p>Software Engineer</p>
+        <h1>Hi,I'm <span>Muhnnad</span> <br> from Palstine,Nablus </h1>
+    </div>
+    </div>
+    </div>
+<!----------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-cal-1">
+                    <img src="PHOTO/name.jpg" alt="">
+                </div>
+                <div class="about-cal-2">
+                    <h1 class="sub-title">about me</h1>
+                    <p>Hi, I'm Muhnnad Qatanani, a software engineer passionate about building scalable and high-performance web applications. I specialize in ASP.NET Core, C#, JavaScript, and SQL. I love solving problems and creating innovative solutions that make a difference.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick ="opentab('Courses')">Courses</p>
+                        <p class="tab-links" onclick ="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>ASP.NET Core, MVC, Web API, Entity Framework Core</span></li>
+                           <li><span>Object-Oriented Programming and Data Structure</span></li>
+                           <li><span> Git, GitHub, Agile, Unit Testing (xUnit)</span></li>
+                            <li><span>program language :C#,SQL,Java,JavaScript,c++,python,dart,mysql,HTML,CSS</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education"> 
+                        <ul>
+                            <li><span>2020-current</span><br> Computer Systems Engineering, Palestine Technical University _
+Kadoorie, Average: 81%</li>
+                            <li><span>2019-2020</span><br> Tawjihi (Industrial Stream), QadriTuqan school, Average: 95.6%</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Courses"> 
+                        <ul>
+                            <li><span>Software Development Trainee-gaza sky geeks(6/2024-10/2024)</span><br> 
+                                   •Engaged in rigorous training in data structures, OOP, design patterns, and MVC
+                                architecture, completing a project under Agile methodologies<br><br>
+                                    •Developed a solid understanding of clean, testable code and collaborated effectively
+within a team to deliver a successful project, focusing on performance and
+scalability<br>
+                                </li>
+                                <li><span>Frontend Development Trainee-Spark(4/2024-7/2024)</span><br> •Built responsive web applications using HTML, CSS, JavaScript, and React, ensuring
+                                    cross-browser compatibility and adherence to modern UX standards.<br><br>
+                                    •Integrated external APIs and used Webpack for a capstone project, gaining hands-on
+                                    experience in dynamic front-end development and team-based project delivery
+                                    </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services------------->
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="serveces-list">
+                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Wep Design</h2>
+                    <p>I build projects according to customer requests, develop them and modify them
+                    </p>
+                    <a href="https://www.linkedin.com/in/muhnnad-qatanani-2a5b732a3/">learn more</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-school"></i>
+                    <h2>teach students</h2>
+                    <p>I can teach students programming and train them, and I have the skill of communicating information easily</p>
+                    <a href="https://www.linkedin.com/in/muhnnad-qatanani-2a5b732a3/">learn more</a>
+                 </div>
+                
+            </div>
+
+        </div>
+      </div>
+      <!------works------>
+      <div id="my-works">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="PHOTO/project 1.png">
+                    <div class="layar">
+                        <h3>todoapp</h3>
+                        <p>It is an application that arranges daily tasks, adding tasks, indicating their completion, or deleting them, and doing the
+                            opposite. I used php, html, and css in it.
+                            </p>
+                            <a href="https://github.com/MuhnnadQatanani1/todotask1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="PHOTO/لقطة شاشة 2024-11-22 093137.png">
+                    <div class="layar">
+                        <h3>Sakkinny - Apartment Rental Management</h3>
+                        <p>A platform for renters and landlords to manage apartment rentals, featuring filtering, responsive design, and more.</p>
+                        <ul>
+                            <li><strong>Technologies:</strong> ASP.NET Core, Entity Framework Core, HTML, CSS, JavaScript</li>
+                            <a href="https://github.com/MuhnnadQatanani1/blackjack"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </ul>
+                </div>
+          
+
+
+            </div>
+            
+        </div>
+      </div>
+      <a href="https://github.com/MuhnnadQatanani1" class="btn"> See More </a>
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="conact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fa-solid fa-envelope"></i>contact muhnnadqatanani123@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>0568512074</p>
+                 <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100014856824487"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/MuhnnadQatanani1"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhnnad-qatanani-2a5b732a3/"><i class="fa-brands fa-linkedin"></i></a>
+                 </div>
+                 <a href="PHOTO/CV.pdf"Download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="conact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="massege"   rows="6" placeholder="Your massege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                  
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Muhnnad Qatanani, made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+      </div>
+    
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links");
+        var tabcontents =document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        
+        
+
+    </script>
+    <script>
+        var id=document.getElementById("menu");
+        function openMenu(){
+            id.style.right = "0";
+                }
+        function closeMenu(){
+            id.style.right = "-200px";
+
+        }
+    </script>
+    
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzNgk6e1J0Mm8PNA1zPXp3oYiSkX27yRgfKHxOY3OxEPqbR4J43TLSc5v2r9uep5ZeMcw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    
+    
+    
+    
+</body>
+</html>
